@@ -1,0 +1,10 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #1f2531;
+    font-family: Georgia;
+}

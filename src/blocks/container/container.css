@@ -1,0 +1,54 @@
+.container{
+    max-width: 960px;
+    margin: 0px auto;
+    position: relative;
+    padding: 10px;
+}
+
+
+.container__text{
+    color: #ffffff;
+    line-height: 25.6px;
+    margin-bottom: 25px;
+}
+
+.container__img_appstore{
+    width: 306px;
+    height: 76px;
+    background:url("img/appstore.png") no-repeat center / cover;
+}
+
+.container__img_devices{
+    width: 384px;
+    height: 33vw;
+    max-height: 415px;
+    background:url("img/devices.png") no-repeat center / contain;
+}
+
+.container_w547{
+    max-width: 547px;
+}
+
+@media (max-width:1000px),(max-device-width:1000px) {
+    .container_top{
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:960px),(max-device-width:960px) {
+    .container_top > .row{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container__img_devices{
+        width: 90%;
+        margin-top: 20px;
+        height: 60vw;
+    }
+
+    .container__img_appstore{
+        margin: auto;
+    }
+}
