@@ -1,5 +1,7 @@
 doctype html
 html(lang="en")
+    include ../blocks/feature/feature.jade
+    include ../blocks/benefit/benefit.jade
     include ../blocks/head/head.jade
     body
         include ../blocks/header/header.jade
@@ -12,6 +14,25 @@ html(lang="en")
                         .container__text This is a W3C standards compliant free PSD website template from OS Templates. This template is distributed using a Website Template Licence. For more free PSD templates visit OS-Templates.com
                         .container__img_appstore
                     .container__img_devices
+                    
+            section.container.container_fenAndben
+                .row.row_fenAndben
+                    .container.container_features
+                        +feature("FEATURE 1", "Justoid nonummy laoreet phasellent penatoque in")
+                        +feature("FEATURE 2", "Justoid nonummy laoreet phasellent penatoque in")
+                        +feature("FEATURE 3", "Justoid nonummy laoreet phasellent penatoque in")
+                        +feature("FEATURE 4", "Justoid nonummy laoreet phasellent penatoque in")
+                    .container.container_benefits
+                        +benefit("img/benefit__img.png", "Benefit Title Here", "Inteligula congue id elis donec sce sagittis intes id laoreet aenean. Massawisicondisse leo sem ac.")
+                        +benefit("img/benefit__img.png", "Benefit Title Here", "Inteligula congue id elis donec sce sagittis intes id laoreet aenean. Massawisicondisse leo sem ac.")
+                        +benefit("img/benefit__img.png", "Benefit Title Here", "Inteligula congue id elis donec sce sagittis intes id laoreet aenean. Massawisicondisse leo sem ac.")
+                        +benefit("img/benefit__img.png", "Benefit Title Here", "Inteligula congue id elis donec sce sagittis intes id laoreet aenean. Massawisicondisse leo sem ac.")
+                        +benefit("img/benefit__img.png", "Benefit Title Here", "Inteligula congue id elis donec sce sagittis intes id laoreet aenean. Massawisicondisse leo sem ac.")
+                        +benefit("img/benefit__img.png", "Benefit Title Here", "Inteligula congue id elis donec sce sagittis intes id laoreet aenean. Massawisicondisse leo sem ac.")
+                        +benefit("img/benefit__img.png", "Benefit Title Here", "Inteligula congue id elis donec sce sagittis intes id laoreet aenean. Massawisicondisse leo sem ac.")
+                        +benefit("img/benefit__img.png", "Benefit Title Here", "Inteligula congue id elis donec sce sagittis intes id laoreet aenean. Massawisicondisse leo sem ac.")
+              
+            
 
     
         include ../blocks/footer/footer.jade

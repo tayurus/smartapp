@@ -5,3 +5,9 @@
     margin: 0px;
     margin-bottom: 25px;
 }
+
+@media (max-width:960px),(max-device-width:960px) {
+    .title{
+        text-align: center;
+    }
+}

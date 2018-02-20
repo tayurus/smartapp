@@ -1,0 +1,22 @@
+.feature{
+    background-color: #b86365;
+    border: 10px solid #e2e2e2;
+    border-radius: 100%;
+    padding: 45px;
+}
+
+.feature__title{
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.feature__text{
+    color: #ffffff;
+    font-size: 13px;
+    line-height: 18.2px;
+    text-align: center;
+}

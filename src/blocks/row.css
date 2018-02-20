@@ -1,9 +1,0 @@
-.row{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.row_items_bottom{
-    align-items: flex-end;
-}

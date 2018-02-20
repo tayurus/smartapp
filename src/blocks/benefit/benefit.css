@@ -1,0 +1,16 @@
+.benefit{
+    width: 194px;
+}
+
+.benefit__title{
+    color: #666666;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16.8px;
+}
+
+.benefit__text{
+    color: #989898;
+    font-size: 12px;
+    line-height: 16.8px;
+}

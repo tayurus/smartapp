@@ -1,0 +1,21 @@
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row_items_bottom{
+    align-items: flex-end;
+}
+
+.row_benefit{
+    justify-content: space-around;
+    margin-bottom: 14px;
+}
+
+.row_fenAndben{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(215px,450px));
+    justify-content: center;
+    grid-row-gap: 30px;
+}

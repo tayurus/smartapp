@@ -29,6 +29,32 @@
     max-width: 547px;
 }
 
+.container_fenAndben{
+    background-color: #fff;
+    border-radius: 2%;
+    padding: 40px 20px;
+}
+
+.container_features{
+    padding: 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 215px);
+    grid-gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.container_benefits{
+    display: grid;
+    padding: 0px;
+    grid-template-columns: repeat(auto-fill, 192px);
+    grid-row-gap: 20px;
+    grid-column-gap: 40px;
+    justify-content: center;
+    width: 100%;
+}
+
+
 @media (max-width:1000px),(max-device-width:1000px) {
     .container_top{
         padding-top: 30px;
@@ -50,5 +76,16 @@
 
     .container__img_appstore{
         margin: auto;
+    }
+}
+
+@media (max-width:400px),(max-device-width:400px) {
+    .container_fenAndben{
+        padding: 40px 0px !important;
+        border-radius: 0px;
+    }
+
+    .container_w547{
+        padding: 0px;
     }
 }
