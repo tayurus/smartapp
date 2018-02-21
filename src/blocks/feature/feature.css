@@ -3,6 +3,10 @@
     border: 10px solid #e2e2e2;
     border-radius: 100%;
     padding: 45px;
+    min-width: 215px;
+    max-width: 215px;
+    min-height: 215px;
+    max-height: 215px;
 }
 
 .feature__title{

@@ -19,3 +19,7 @@
     justify-content: center;
     grid-row-gap: 30px;
 }
+
+.row__footer{
+    align-items: flex-start;
+}

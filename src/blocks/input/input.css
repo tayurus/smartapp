@@ -1,0 +1,67 @@
+.input__wrapper1{
+    width: 305px;
+}
+
+.input__title{
+    color: #666666;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 43.2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.input__text{
+    color: #989898;
+    font-family: Georgia;
+    line-height: 19.2px;
+}
+
+.input__wrapper2{
+    width: 398px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input__field{
+    width: 281px;
+    padding: 9px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to bottom, #f5f5f5, #dbdbdb);
+}
+
+.input__btn{
+    border: none;
+    background: linear-gradient(to bottom, #f5f5f5, #dbdbdb);
+    text-decoration: none;
+    outline: none;
+    color: #b86365;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 16.71px;
+    text-transform: uppercase;
+    padding: 9px 22px;
+}
+
+@media (max-width:960px),(max-device-width:960px) {
+    .container .input {
+        flex-direction: column !important;
+    }
+
+    .container .input > div{
+        margin: 10px 0px;
+    }
+}
+
+@media (max-width:500px),(max-device-width:500px) {
+    .input__wrapper2{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input__field, .input__btn{
+        margin: 10px 0px;
+        text-align: center;
+    }
+}

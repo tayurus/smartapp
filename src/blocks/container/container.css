@@ -54,6 +54,9 @@
     width: 100%;
 }
 
+.container_bg_white{
+    background-color: white;
+}
 
 @media (max-width:1000px),(max-device-width:1000px) {
     .container_top{
@@ -77,6 +80,9 @@
     .container__img_appstore{
         margin: auto;
     }
+
+
+
 }
 
 @media (max-width:400px),(max-device-width:400px) {
